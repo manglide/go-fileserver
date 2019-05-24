@@ -14,9 +14,7 @@ func GenerateMarkdown(rw http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-
 	portS := os.Getenv("PORT")
-
 	if portS == "" {
 		portS = "8080"
 	}

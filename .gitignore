@@ -1,1 +1,3 @@
 *.exe
+!fileserver.exe
+fileserver.exe
